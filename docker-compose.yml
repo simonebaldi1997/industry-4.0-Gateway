@@ -1,0 +1,26 @@
+services:
+  reteEsterna:
+    image: ubuntu
+    tty: true
+    networks:
+     - network_container
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+    
+  reteInterna:
+    image: ubuntu
+    tty: true
+    networks:
+     - network_container
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+
+networks:
+  network_container:
+    driver: bridge
