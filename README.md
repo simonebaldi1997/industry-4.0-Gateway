@@ -1,4 +1,4 @@
-# industry-4.0-Gateway
+# Industry-4.0-Gateway
 
 This repository was created to make available the files of a master's thesis in computer engineering titled "Development and evaluation of a secure gateway for industry 4.0 applications". 
 
